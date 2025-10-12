@@ -15,12 +15,12 @@ An interactive Android application built with Kotlin that helps users learn abou
 
 | Splash Screen | Login Screen | Sign Up Screen |
 | :---: | :---: | :---: |
-| <img src="screenshots/Splash.jpg" width="250"> | <img src="screenshots/Login.jpg" width="250"> | <img src="screenshots/Signup.jpg" width="250"> |
+| <img src="screenshots/Splash.jpg" width="220"> | <img src="screenshots/Login.jpg" width="220"> | <img src="screenshots/Signup.jpg" width="220"> |
 
 | Dashboard | Category List | Interactive Map |
 | :---: | :---: | :---: |
-| <img src="screenshots/Dashboard.jpg" width="250"> | <img src="screenshots/Categories.jpg" width="250"> | <img src="screenshots/Maps.jpg" width="250"> |
+| <img src="screenshots/Dashboard.jpg" width="220"> | <img src="screenshots/Categories.jpg" width="220"> | <img src="screenshots/Maps.jpg" width="220"> |
 
 | Quiz in Progress | Quiz Result | Score History |
 | :---: | :---: | :---: |
-| <img src="screenshots/Quiz.jpg" width="250"> | <img src="screenshots/Result.jpg" width="250"> | <img src="screenshots/Score.jpg" width="250"> |
+| <img src="screenshots/Quiz.jpg" width="220"> | <img src="screenshots/Result.jpg" width="220"> | <img src="screenshots/Score.jpg" width="220"> |
