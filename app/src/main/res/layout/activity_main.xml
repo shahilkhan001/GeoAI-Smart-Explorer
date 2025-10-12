@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_splash"
+    tools:context=".MainActivity">
+
+    <!-- Dashboard Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:layout_marginTop="10dp"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:fontFamily="monospace"
+        android:shadowColor="#80000000"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="6"/>
+
+    <!-- ✅ High Score Display -->
+    <TextView
+        android:id="@+id/tvHighScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="High Score: 2/3"
+        android:fontFamily="monospace"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"/>
+    <!-- ✅ End High Score -->
+
+    <!-- Categories Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardCategories"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="16dp"
+        android:layout_marginBottom="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:src="@drawable/ic_categories"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explore Categories"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:shadowColor="#80000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Quizzes Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardQuizzes"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="16dp"
+        android:layout_marginBottom="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_quiz"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test Your Knowledge"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:shadowColor="#80000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Score History Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardScoreHistory"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="16dp"
+        android:layout_marginBottom="16dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_history"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Score History"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:shadowColor="#80000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Logout Container -->
+    <LinearLayout
+        android:id="@+id/logoutContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/btnLogout"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_logout"
+            android:contentDescription="Logout"
+            android:focusable="false"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:fontFamily="monospace"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_quiz"
+    tools:context=".QuizActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <!-- Question Card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="12dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:text="What country does this flag belong to?" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Progress -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="12dp"
+        android:progressDrawable="@drawable/progress_quiz"
+        android:progress="0"
+        android:max="3"
+        android:indeterminate="false" />
+
+    <TextView
+        android:id="@+id/tvProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:padding="6dp"
+        tools:text="Question 1 of 3" />
+
+    <!-- Options -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbOptionOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            tools:text="Option 1"/>
+        <RadioButton
+            android:id="@+id/rbOptionTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            tools:text="Option 2"/>
+        <RadioButton
+            android:id="@+id/rbOptionThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            tools:text="Option 3"/>
+        <RadioButton
+            android:id="@+id/rbOptionFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            tools:text="Option 4"/>
+    </RadioGroup>
+
+    <!-- Submit Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SUBMIT"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="12dp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

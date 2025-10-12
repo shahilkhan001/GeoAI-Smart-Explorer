@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_quiz"
+    tools:context=".ScoreHistoryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score History"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/dodger_blue"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:padding="16dp"
+        android:fontFamily="monospace"
+        android:shadowColor="@color/black"
+        android:shadowDx="6"
+        android:shadowDy="6"
+        android:shadowRadius="8"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvScoreHistory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "818473156219",
+    "project_id": "geography-explorer-a2032",
+    "storage_bucket": "geography-explorer-a2032.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818473156219:android:5852d5fd4ee73ec0bf2cde",
+        "android_client_info": {
+          "package_name": "com.example.geographyexplorer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZTjJK4H051Im2AxwGGHRYwQfFStB2hSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

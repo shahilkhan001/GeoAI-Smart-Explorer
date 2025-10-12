@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/bg_splash">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="32dp"
+        android:lineSpacingExtra="6dp"
+        android:fontFamily="monospace"
+        android:shadowColor="#FF000000"
+        android:shadowDx="6"
+        android:shadowDy="6"
+        android:shadowRadius="8"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/emailEditTextSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@android:color/black"
+        android:textColorHint="#CCFFFFFF"/>
+
+    <EditText
+        android:id="@+id/passwordEditTextSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="Password (min. 6 characters)"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@android:color/black"
+        android:textColorHint="#CCFFFFFF"/>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
