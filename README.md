@@ -5,6 +5,7 @@ An interactive Android application built with Kotlin that helps users learn abou
 ## Features
 
 - 🔐 **Secure Authentication:** Full user sign-up and login system using Firebase Authentication.
+- 🔒 **Biometric App Lock:** Secure the app with fingerprint or face ID, with an in-app toggle to enable/disable.
 - 🗺️ **Interactive Maps:** Explores geographical categories with dynamic Google Maps integration, featuring satellite/hybrid views, location search, and seamless panning.
 - 🧠 **Engaging Quizzes:** A multiple-choice quiz system to test user knowledge.
 - 💾 **Persistent Data:** User quiz scores are saved locally using Room Database, displaying the all-time high score on the dashboard.
