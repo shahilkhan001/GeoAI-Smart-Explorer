@@ -203,7 +203,8 @@ class DetailActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnCame
             "Volcanoes" -> Triple(LatLng(19.4069, -155.2834), 11f, "Mauna Loa, Hawaii")
             // World’s largest volcano, very visible
 
-            "Lakes" -> Triple(LatLng(-1.4127, 29.8815), 9f, "Lake Kivu, Africa")
+            "Lakes" -> Triple(LatLng(53.5587, 108.1650), 7f, "Lake Baikal, Russia")
+
             // Big and easily seen on map
 
             "Islands" -> Triple(LatLng(-17.7134, 178.0650), 7f, "Fiji Islands")

@@ -74,4 +74,8 @@ dependencies {
     // Firebase Authentication
     implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
     implementation("com.google.firebase:firebase-auth-ktx")
+
+    // Biometric Authentication
+    implementation("androidx.biometric:biometric-ktx:1.2.0-alpha05")
+
 }
