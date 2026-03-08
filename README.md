@@ -105,9 +105,9 @@ GeoAI-Smart-Explorer
 | :--------------------------------------------: | :-------------------------------------------: | :--------------------------------------------: |
 | <img src="screenshots/Splash.jpg" width="220"> | <img src="screenshots/Login.jpg" width="220"> | <img src="screenshots/Signup.jpg" width="220"> |
 
-|                     Dashboard                     |                    Category List                   |                Interactive Map               |
-| :-----------------------------------------------: | :------------------------------------------------: | :------------------------------------------: |
-| <img src="screenshots/Dashboard.jpg" width="220"> | <img src="screenshots/Categories.jpg" width="220"> | <img src="screenshots/Maps.jpg" width="220"> |
+|                     Dashboard                      |                    Category List                   |                Interactive Map               |
+|:--------------------------------------------------:| :------------------------------------------------: | :------------------------------------------: |
+| <img src="screenshots/Dashboard.jpgeg" width="220"> | <img src="screenshots/Categories.jpg" width="220"> | <img src="screenshots/Maps.jpg" width="220"> |
 
 |               Quiz in Progress               |                   Quiz Result                  |                 Score History                 |
 | :------------------------------------------: | :--------------------------------------------: | :-------------------------------------------: |
