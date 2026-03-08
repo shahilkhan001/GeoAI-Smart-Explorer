@@ -1,13 +1,13 @@
 package com.example.geographyexplorer
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
-
-@Entity(tableName = "quiz_results_table")
 data class QuizResult(
-    @PrimaryKey(autoGenerate = true)
-    val id: Int = 0,
-    val score: Int,
-    val totalQuestions: Int,
-    val timestamp: Long = System.currentTimeMillis()
-)
+
+    var id: Int = 0,
+    var score: Int = 0,
+    var totalQuestions: Int = 0,
+    var timestamp: Long = System.currentTimeMillis()
+
+) {
+    // Required empty constructor for Firebase
+    constructor() : this(0, 0, 0, 0)
+}
