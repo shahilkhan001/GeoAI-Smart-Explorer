@@ -107,7 +107,7 @@ GeoAI-Smart-Explorer
 
 |                     Dashboard                      |                    Category List                   |                Interactive Map               |
 |:--------------------------------------------------:| :------------------------------------------------: | :------------------------------------------: |
-| <img src="screenshots/Dashboard.jpgeg" width="220"> | <img src="screenshots/Categories.jpg" width="220"> | <img src="screenshots/Maps.jpg" width="220"> |
+| <img src="screenshots/Dashboard.jpeg" width="220"> | <img src="screenshots/Categories.jpg" width="220"> | <img src="screenshots/Maps.jpg" width="220"> |
 
 |               Quiz in Progress               |                   Quiz Result                  |                 Score History                 |
 | :------------------------------------------: | :--------------------------------------------: | :-------------------------------------------: |
