@@ -1,27 +1,115 @@
-# 🌍 Geography Explorer
+# 🌍 GeoAI Smart Explorer (Geography Explorer)
 
-An interactive Android application built with Kotlin that helps users learn about geographical features using satellite imagery, maps, and an integrated quiz system.
+An interactive Android application built with Kotlin that helps users explore geographical features using maps, satellite imagery, quizzes, and cloud-based score tracking.
 
-## Features
+The app demonstrates modern Android development concepts such as **Firebase cloud integration, Canvas graphics, animations, and Google Maps APIs**.
 
-- 🔐 **Secure Authentication:** Full user sign-up and login system using Firebase Authentication.
-- 🔒 **Biometric App Lock:** Secure the app with fingerprint or face ID, with an in-app toggle to enable/disable.
-- 🗺️ **Interactive Maps:** Explores geographical categories with dynamic Google Maps integration, featuring satellite/hybrid views, location search, and seamless panning.
-- 🧠 **Engaging Quizzes:** A multiple-choice quiz system to test user knowledge.
-- 💾 **Persistent Data:** User quiz scores are saved locally using Room Database, displaying the all-time high score on the dashboard.
-- 📜 **Score History:** View the last 10 quiz results with timestamps, with a mechanism to reset history after 10 entries.
-- 📱 **Modern UI:** Clean, responsive user interface built with modern Android components.
+---
 
-## Screenshots
+# 🚀 Features
 
-| Splash Screen | Login Screen | Sign Up Screen |
-| :---: | :---: | :---: |
+### 🔐 Secure Authentication
+
+* Firebase Authentication (Email Login & Signup)
+* User session management
+
+### 🔒 Biometric App Lock
+
+* Fingerprint / Face ID authentication
+* Toggle option to enable or disable app lock
+
+### 🗺️ Interactive Maps
+
+* Google Maps SDK integration
+* Explore categories like:
+
+    * Continents
+    * Oceans
+    * Mountains
+    * Deserts
+    * Rivers
+    * Landmarks
+    * Volcanoes
+    * Lakes
+    * Islands
+    * Forests
+* Hybrid / Terrain / Normal map views
+* Location search using Geocoder
+* User location support
+
+### 🧠 Geography Quiz System
+
+* Multiple choice geography questions
+* Instant answer feedback
+* Animated circular result progress
+* Interactive quiz experience
+
+### ☁ Cloud Score Storage
+
+* Firebase Realtime Database
+* Quiz scores stored in the cloud
+* High score displayed on dashboard
+* Complete quiz score history
+
+### 🎨 Graphics & Animations
+
+* Canvas-based **rotating Earth visualization**
+* Splash screen animations
+* Dashboard card click animations
+* Animated quiz result progress indicator
+
+### 📱 Modern UI
+
+* Material Design components
+* Smooth animations
+* Responsive layouts
+
+---
+
+# 🛠 Technologies Used
+
+* **Kotlin**
+* **Android Studio**
+* **Firebase Authentication**
+* **Firebase Realtime Database**
+* **Google Maps SDK**
+* **Android Canvas API**
+* **Material Design Components**
+* **ViewBinding**
+
+---
+
+# 📂 Project Architecture
+
+```text
+GeoAI-Smart-Explorer
+ ├── FirebaseScoreManager
+ ├── EarthCanvasView (Canvas animation)
+ ├── Activities
+ │    ├── SplashActivity
+ │    ├── LoginActivity
+ │    ├── SignUpActivity
+ │    ├── MainActivity
+ │    ├── QuizActivity
+ │    ├── ResultActivity
+ │    ├── ScoreHistoryActivity
+ │    ├── CategoryListActivity
+ │    └── DetailActivity
+```
+
+---
+
+# 📸 Screenshots
+
+|                  Splash Screen                 |                  Login Screen                 |                 Sign Up Screen                 |
+| :--------------------------------------------: | :-------------------------------------------: | :--------------------------------------------: |
 | <img src="screenshots/Splash.jpg" width="220"> | <img src="screenshots/Login.jpg" width="220"> | <img src="screenshots/Signup.jpg" width="220"> |
 
-| Dashboard | Category List | Interactive Map |
-| :---: | :---: | :---: |
+|                     Dashboard                     |                    Category List                   |                Interactive Map               |
+| :-----------------------------------------------: | :------------------------------------------------: | :------------------------------------------: |
 | <img src="screenshots/Dashboard.jpg" width="220"> | <img src="screenshots/Categories.jpg" width="220"> | <img src="screenshots/Maps.jpg" width="220"> |
 
-| Quiz in Progress | Quiz Result | Score History |
-| :---: | :---: | :---: |
+|               Quiz in Progress               |                   Quiz Result                  |                 Score History                 |
+| :------------------------------------------: | :--------------------------------------------: | :-------------------------------------------: |
 | <img src="screenshots/Quiz.jpg" width="220"> | <img src="screenshots/Result.jpg" width="220"> | <img src="screenshots/Score.jpg" width="220"> |
+
